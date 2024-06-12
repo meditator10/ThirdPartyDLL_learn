@@ -1,0 +1,46 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "ValueConverters/3.0.26": {
+        "dependencies": {
+          "ValueConverters.Annotations": "3.0.26"
+        },
+        "runtime": {
+          "lib/net5.0-windows7/ValueConverters.dll": {
+            "assemblyVersion": "3.0.26.0",
+            "fileVersion": "3.0.26.0"
+          }
+        }
+      },
+      "ValueConverters.Annotations/3.0.26": {
+        "runtime": {
+          "lib/netstandard2.0/ValueConverters.Annotations.dll": {
+            "assemblyVersion": "3.0.26.0",
+            "fileVersion": "3.0.26.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ValueConverters/3.0.26": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-h9svVQ90+l31MxQXVv9tFjdG8Rr5bke96C5p3toQY1ZxwVL/tK56rBsxZe3ui2Y3g06Yxk11at6WK0sbIFjL9w==",
+      "path": "valueconverters/3.0.26",
+      "hashPath": "valueconverters.3.0.26.nupkg.sha512"
+    },
+    "ValueConverters.Annotations/3.0.26": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1WJVTOI6q66230SNbioRBf15lkVjqZ9v+G1hHLjhefYsgndoy81bkPm9iUBYTY7SRTT66B9sulqxEXWk/EJh/g==",
+      "path": "valueconverters.annotations/3.0.26",
+      "hashPath": "valueconverters.annotations.3.0.26.nupkg.sha512"
+    }
+  }
+}

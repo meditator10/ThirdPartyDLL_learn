@@ -1,0 +1,154 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0-windows7.0": {
+      "ValueConverters/3.0.26": {
+        "type": "package",
+        "dependencies": {
+          "ValueConverters.Annotations": "3.0.26"
+        },
+        "compile": {
+          "lib/net5.0-windows7/ValueConverters.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0-windows7/ValueConverters.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "ValueConverters.Annotations/3.0.26": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/ValueConverters.Annotations.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/ValueConverters.Annotations.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ValueConverters/3.0.26": {
+      "sha512": "h9svVQ90+l31MxQXVv9tFjdG8Rr5bke96C5p3toQY1ZxwVL/tK56rBsxZe3ui2Y3g06Yxk11at6WK0sbIFjL9w==",
+      "type": "package",
+      "path": "valueconverters/3.0.26",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net48/ValueConverters.dll",
+        "lib/net48/ValueConverters.pdb",
+        "lib/net48/ValueConverters.xml",
+        "lib/net5.0-windows7/ValueConverters.dll",
+        "lib/net5.0-windows7/ValueConverters.pdb",
+        "lib/net5.0-windows7/ValueConverters.xml",
+        "lib/uap10.0/ValueConverters.dll",
+        "lib/uap10.0/ValueConverters.pdb",
+        "lib/uap10.0/ValueConverters.xml",
+        "valueconverters.3.0.26.nupkg.sha512",
+        "valueconverters.nuspec"
+      ]
+    },
+    "ValueConverters.Annotations/3.0.26": {
+      "sha512": "1WJVTOI6q66230SNbioRBf15lkVjqZ9v+G1hHLjhefYsgndoy81bkPm9iUBYTY7SRTT66B9sulqxEXWk/EJh/g==",
+      "type": "package",
+      "path": "valueconverters.annotations/3.0.26",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net48/ValueConverters.Annotations.dll",
+        "lib/netstandard1.0/ValueConverters.Annotations.dll",
+        "lib/netstandard1.4/ValueConverters.Annotations.dll",
+        "lib/netstandard1.6/ValueConverters.Annotations.dll",
+        "lib/netstandard2.0/ValueConverters.Annotations.dll",
+        "valueconverters.annotations.3.0.26.nupkg.sha512",
+        "valueconverters.annotations.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0-windows7.0": [
+      "ValueConverters >= 3.0.26"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\DTMLLUAdminUser\\.nuget\\packages\\": {},
+    "C:\\VS\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\personal\\Csharp_demo\\ValueConverter.demo\\ValueConverter\\ValueConverter.csproj",
+      "projectName": "ValueConverter",
+      "projectPath": "C:\\personal\\Csharp_demo\\ValueConverter.demo\\ValueConverter\\ValueConverter.csproj",
+      "packagesPath": "C:\\Users\\DTMLLUAdminUser\\.nuget\\packages\\",
+      "outputPath": "C:\\personal\\Csharp_demo\\ValueConverter.demo\\ValueConverter\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\VS\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\DTMLLUAdminUser\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0-windows7.0": {
+        "targetAlias": "net8.0-windows",
+        "dependencies": {
+          "ValueConverters": {
+            "target": "Package",
+            "version": "[3.0.26, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

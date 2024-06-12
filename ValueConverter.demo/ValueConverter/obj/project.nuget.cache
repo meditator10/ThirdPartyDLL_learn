@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "1OEvYbDF2+Ki1R14SHn35ZZ7TYN8egKVignYjD9hnW28fZ3/UzOzwy8Y5gWHr6vz/bvrIVfB4hGPDgB0bqSrlQ==",
+  "success": true,
+  "projectFilePath": "C:\\personal\\Csharp_demo\\ValueConverter.demo\\ValueConverter\\ValueConverter.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\DTMLLUAdminUser\\.nuget\\packages\\valueconverters\\3.0.26\\valueconverters.3.0.26.nupkg.sha512",
+    "C:\\Users\\DTMLLUAdminUser\\.nuget\\packages\\valueconverters.annotations\\3.0.26\\valueconverters.annotations.3.0.26.nupkg.sha512"
+  ],
+  "logs": []
+}
